@@ -1,1 +1,30 @@
-10 points
+Best Practice
+Planning:
+	• Involve team
+	• Identify impacted stakeholder
+
+
+Design:
+	• Simple design
+	• Keep FR/NFR 
+
+
+Build:
+	• YAGNI: "You Aint Gonna Need It". Don't write code that you think you might need in future, but don't need yet
+	• Build early and build often
+	• Automate the build process
+	• Pair programming
+	• Refactor
+	• DRY - Don't repeat yourself is a principle of software development aimed at reducing repetition of software patterns, replacing it with abstractions or using data normalization to avoid redundancy.
+
+
+Test:
+	• For unit tests (including test infrastructure tests) all code paths should be tested. 100% coverage is a good place to start.
+	• Fail Fast
+	• Have 100% regression suite
+	• Automate testing
+
+Deployment:-
+	• Backout/forward strategy 
+	• Continuous Integration
+	• Continuous Delivery
